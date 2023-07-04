@@ -11,8 +11,8 @@
 在前面介绍的 8 种 NameSpace 中，有一个 Network NameSpace ，我们可以借助这个来给容器配置独立的网络视图。
 
 我们先看宿主机所处的 Default Network NameSpace ：
-
-`[root@host ~]# readlink /proc/$$/ns/net  
+`
+[root@host ~]# readlink /proc/$$/ns/net  
 net:[4026531956]  
 [root@host ~]#  
 `
